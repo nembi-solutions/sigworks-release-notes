@@ -2,7 +2,7 @@
 
 ## Adicionado
 - Histórico de Versões.  
-  → [Histórico de Versões / Manual de uso](../../modules/historico_versoes/index.md)
+  → [Histórico de Versões / Manual de uso](../../modules/historico_versoes/index.md) 
 
 ## Alterado
 - Módulo de Custo:
