@@ -19,4 +19,4 @@ nav:
       - Importação de Desembolso via Upload:
           - Manual de uso: modules/upload_desembolso/index.md
 plugins:
-  - search
+  - search 
