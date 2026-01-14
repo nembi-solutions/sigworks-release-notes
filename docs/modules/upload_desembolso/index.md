@@ -6,16 +6,6 @@ Permite definir a distribuição de unidades ao longo dos meses diretamente no u
 
 ---
 
-## Quando utilizar
-
-A importação de desembolso deve ser utilizada quando for necessário:
-
-- Controlar a distribuição mensal de unidades;
-- Garantir que o planejamento reflita corretamente o período da Linha de Base;
-- Evitar ajustes manuais posteriores no sistema.
-
----
-
 ## Como utilizar
 
 ### 1. Cadastro da Linha de Base
@@ -27,6 +17,10 @@ Ao cadastrar uma nova Linha de Base, localize a opção:
 Essa opção deve ser **marcada** para habilitar a funcionalidade de importação de desembolso.
 
 > Caso a opção não seja marcada, o sistema seguirá o fluxo padrão, sem considerar distribuição mensal via upload.
+
+<img src="../../assets/gifs/v1-58_cadastro.gif"
+     class="doc-img-medium doc-img-center"
+     alt="Login">
 
 ---
 
@@ -45,6 +39,10 @@ Exemplo de cabeçalho gerado:
 - Fev/2025
 - Mar/2025
 - Abr/2025
+
+<img src="../../assets/gifs/v1-58_template.gif"
+     class="doc-img-medium doc-img-center"
+     alt="Login">
 
 ---
 
@@ -74,6 +72,10 @@ Após o preenchimento:
    - Consistência dos valores de desembolso.
 
 Se todas as validações forem atendidas, o desembolso será importado e aplicado automaticamente.
+
+<img src="../../assets/gifs/v1-58_upload.gif"
+     class="doc-img-medium doc-img-center"
+     alt="Login">
 
 ---
 

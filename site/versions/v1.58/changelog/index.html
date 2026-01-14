@@ -42,7 +42,12 @@
                     <li class="toctree-l1"><a class="nav-item" href="../../..">Home</a></li>
                     <li class="toctree-l1"><button class="section nav-item">Versões</button>
 <ul class="subnav">
-    <li class="toctree-l2 current"><button class="section nav-item">v1.57</button>
+    <li class="toctree-l2"><button class="section nav-item hide">v1.57</button>
+<ul class="subnav hide">
+    <li class="toctree-l3"><a class="nav-item" href="../../v1.57/">Visão Geral</a></li>
+    <li class="toctree-l3"><a class="nav-item" href="../../v1.57/changelog/">Changelog</a></li>
+</ul></li>
+    <li class="toctree-l2 current"><button class="section nav-item">v1.58</button>
 <ul class="subnav">
     <li class="toctree-l3"><a class="nav-item" href="../">Visão Geral</a></li>
     <li class="toctree-l3 current"><a class="nav-item current" href="./">Changelog</a>
@@ -50,11 +55,6 @@
 <li class="toctree-l4"><a class="nav-item toc" href="#adicionado">Adicionado</a></li>
 <li class="toctree-l4"><a class="nav-item toc" href="#alterado">Alterado</a></li>
 </ul></li>
-</ul></li>
-    <li class="toctree-l2"><button class="section nav-item hide">v1.58</button>
-<ul class="subnav hide">
-    <li class="toctree-l3"><a class="nav-item" href="../../v1.58/">Visão Geral</a></li>
-    <li class="toctree-l3"><a class="nav-item" href="../../v1.58/changelog/">Changelog</a></li>
 </ul></li>
 </ul></li>
                     <li class="toctree-l1"><button class="section nav-item">Módulos</button>
@@ -72,7 +72,7 @@
             </nav>
             <div class="repo">
     <div class="previous"><a href="../">&laquo; Previous</a></div>
-    <div class="next"><a href="../../v1.58/">Next &raquo;</a></div>
+    <div class="next"><a href="../../../modules/historico_versoes/">Next &raquo;</a></div>
 </div>
         </aside>
         <div id="spacer"><button class="arrow"></button></div>
@@ -84,29 +84,27 @@
             <div id="main">
                 <nav class="breadcrumbs">
 <ul>
-    <li>Versões &raquo; </li><li>v1.57</li>
+    <li>Versões &raquo; </li><li>v1.58</li>
 </ul>
 </nav>
-                <div id="content"><h1 id="changelog-v157">Changelog – v1.57</h1>
+                <div id="content"><h1 id="changelog-v158">Changelog – v1.58</h1>
 <h2 id="adicionado">Adicionado</h2>
 <ul>
-<li>Histórico de Versões.<br />
-  → <a href="../../../modules/historico_versoes/">Histórico de Versões / Manual de uso</a> </li>
+<li>Funcionalidade de <strong>Importação de Desembolso</strong>:</li>
+<li>Novo campo <strong>"Importar Desembolso?"</strong> no cadastro de Linha de Base;</li>
+<li>Geração de template com cabeçalho dinâmico, contendo os meses correspondentes ao período configurado;</li>
+<li>Possibilidade de informar a distribuição de unidades mensalmente no momento do upload.</li>
 </ul>
+<p>→ <a href="../../../modules/upload_desembolso/">Importação de Desembolso / Manual de uso</a></p>
 <h2 id="alterado">Alterado</h2>
 <ul>
-<li>Módulo de Custo:</li>
-<li>Ao criar um novo orçamento, a versão "0" também apresenta valores totais;</li>
-<li>Correção no cálculo de distribuição, possibilitando alterações de datas sólidas nas atividades, e atualização de valores calculados feita na hora;</li>
-<li>Remoção do recálculo dos valores totais a cada alteração (na grade de visualização);</li>
-<li>Update do formulário "Monitoramento de Custo", para igualar versõa com o formulário "Orçamento";</li>
-<li>Dinamismo aplicado às abas ao atualizar informações (recarregando os valores a cada mudança em outras abas).</li>
-<li>Apresentação da versão na tela de login(público).</li>
+<li>Processo de upload de Linha de Base para suportar dados de desembolso mensal;</li>
+<li>Validações para garantir consistência entre período da linha de base e os meses do template.</li>
 </ul></div>
                 <footer>
     <div class="footer-buttons">
         <div class="previous"><a href="../" title="Visão Geral"><span>Previous</span></a></div>
-        <div class="next"><a href="../../v1.58/" title="Visão Geral"><span>Next</span></a></div>
+        <div class="next"><a href="../../../modules/historico_versoes/" title="Manual de uso"><span>Next</span></a></div>
     </div>
     <div class="footer-note">
         <p>
