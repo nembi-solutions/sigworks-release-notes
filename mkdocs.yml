@@ -10,8 +10,13 @@ nav:
       - v1.57:
           - Visão Geral: versions/v1.57/index.md
           - Changelog: versions/v1.57/changelog.md
+      - v1.58:
+          - Visão Geral: versions/v1.58/index.md
+          - Changelog: versions/v1.58/changelog.md
   - Módulos:
       - Historico de Versões:
           - Manual de uso: modules/historico_versoes/index.md
+      - Importação de Desembolso via Upload:
+          - Manual de uso: modules/upload_desembolso/index.md
 plugins:
-  - search
+  - search 

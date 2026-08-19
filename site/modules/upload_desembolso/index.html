@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="../../img/favicon.ico">
+    <title>Manual de uso &mdash; Documentação do Sistema Sigworks</title>
+    <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Lato:400,700">
+    <link rel="stylesheet" href="//cdn.jsdelivr.net/gh/tonsky/FiraCode@1.206/distr/fira_code.css">
+    <link rel="stylesheet" href="//use.fontawesome.com/releases/v5.8.1/css/all.css">
+    <link rel="stylesheet" href="//use.fontawesome.com/releases/v5.8.1/css/v4-shims.css">
+    <link rel="stylesheet" href="../../css/theme.css">
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/github.min.css">
+    <link rel="stylesheet" href="../../styles/extra.css">
+    <script src="//code.jquery.com/jquery-2.1.1.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
+    <script>
+        hljs.initHighlightingOnLoad();
+    </script> 
+</head>
+
+<body ontouchstart="">
+    <div id="container">
+        <aside>
+            <div class="home">
+                <div class="title">
+                    <button class="hamburger"></button>
+                    <a href="../.." class="site-name"> Documentação do Sistema Sigworks</a>
+                </div>
+                <div class="search">
+                    <div role="search">
+    <form id="rtd-search-form" class="wy-form" action="../../search.html" method="get">
+        <input type="text" name="q" placeholder="Search docs" title="Type search term here" />
+    </form>
+</div>
+                </div>
+            </div>
+            <nav class="nav">
+                <ul class="root">
+                    <li class="toctree-l1"><a class="nav-item" href="../..">Home</a></li>
+                    <li class="toctree-l1"><button class="section nav-item">Versões</button>
+<ul class="subnav">
+    <li class="toctree-l2"><button class="section nav-item hide">v1.57</button>
+<ul class="subnav hide">
+    <li class="toctree-l3"><a class="nav-item" href="../../versions/v1.57/">Visão Geral</a></li>
+    <li class="toctree-l3"><a class="nav-item" href="../../versions/v1.57/changelog/">Changelog</a></li>
+</ul></li>
+    <li class="toctree-l2"><button class="section nav-item hide">v1.58</button>
+<ul class="subnav hide">
+    <li class="toctree-l3"><a class="nav-item" href="../../versions/v1.58/">Visão Geral</a></li>
+    <li class="toctree-l3"><a class="nav-item" href="../../versions/v1.58/changelog/">Changelog</a></li>
+</ul></li>
+</ul></li>
+                    <li class="toctree-l1"><button class="section nav-item">Módulos</button>
+<ul class="subnav">
+    <li class="toctree-l2"><button class="section nav-item hide">Historico de Versões</button>
+<ul class="subnav hide">
+    <li class="toctree-l3"><a class="nav-item" href="../historico_versoes/">Manual de uso</a></li>
+</ul></li>
+    <li class="toctree-l2 current"><button class="section nav-item">Importação de Desembolso via Upload</button>
+<ul class="subnav">
+    <li class="toctree-l3 current"><a class="nav-item current" href="./">Manual de uso</a>
+<ul class="subnav">
+<li class="toctree-l4"><a class="nav-item toc" href="#quando-utilizar">Quando utilizar</a></li>
+<li class="toctree-l4"><a class="nav-item toc" href="#como-utilizar">Como utilizar</a></li>
+<li class="toctree-l4"><a class="nav-item toc" href="#resultado">Resultado</a></li>
+</ul></li>
+</ul></li>
+</ul></li>
+                </ul>
+            </nav>
+            <div class="repo">
+    <div class="previous"><a href="../historico_versoes/">&laquo; Previous</a></div>
+</div>
+        </aside>
+        <div id="spacer"><button class="arrow"></button></div>
+        <main>
+            <div class="home-top">
+                <button class="hamburger"></button>
+                <a href="../.." class="site-name"> Documentação do Sistema Sigworks</a>
+            </div>
+            <div id="main">
+                <nav class="breadcrumbs">
+<ul>
+    <li>Módulos &raquo; </li><li>Importação de Desembolso via Upload</li>
+</ul>
+</nav>
+                <div id="content"><h1 id="manual-de-uso-importacao-de-desembolso">Manual de Uso – Importação de Desembolso</h1>
+<p>Permite definir a distribuição de unidades ao longo dos meses diretamente no upload da Linha de Base, utilizando um template com cabeçalho dinâmico.</p>
+<blockquote>
+<p>Introduzido na <strong>v1.58</strong></p>
+</blockquote>
+<hr />
+<h2 id="quando-utilizar">Quando utilizar</h2>
+<p>A importação de desembolso deve ser utilizada quando for necessário:</p>
+<ul>
+<li>Controlar a distribuição mensal de unidades;</li>
+<li>Garantir que o planejamento reflita corretamente o período da Linha de Base;</li>
+<li>Evitar ajustes manuais posteriores no sistema.</li>
+</ul>
+<hr />
+<h2 id="como-utilizar">Como utilizar</h2>
+<h3 id="1-cadastro-da-linha-de-base">1. Cadastro da Linha de Base</h3>
+<p>Ao cadastrar uma nova Linha de Base, localize a opção:</p>
+<ul>
+<li><strong>Importar Desembolso?</strong></li>
+</ul>
+<p>Essa opção deve ser <strong>marcada</strong> para habilitar a funcionalidade de importação de desembolso.</p>
+<blockquote>
+<p>Caso a opção não seja marcada, o sistema seguirá o fluxo padrão, sem considerar distribuição mensal via upload.</p>
+</blockquote>
+<hr />
+<h3 id="2-geracao-do-template">2. Geração do Template</h3>
+<p>Após marcar a opção <strong>"Importar Desembolso?"</strong>, o botão <strong>Template</strong> ficará disponível.</p>
+<p>Ao clicar em <strong>Template</strong>:</p>
+<ul>
+<li>O sistema gera automaticamente um arquivo de template;</li>
+<li>O cabeçalho do template é criado de forma <strong>dinâmica</strong>;</li>
+<li>Os meses exibidos correspondem exatamente ao período definido na Linha de Base.</li>
+</ul>
+<p>Exemplo de cabeçalho gerado:
+- Jan/2025
+- Fev/2025
+- Mar/2025
+- Abr/2025</p>
+<hr />
+<h3 id="3-preenchimento-do-template">3. Preenchimento do Template</h3>
+<p>No template gerado:</p>
+<ul>
+<li>Cada coluna de mês representa a quantidade de unidades a serem desembolsadas naquele período;</li>
+<li>O usuário deve preencher os valores conforme o planejamento mensal;</li>
+<li>Os valores informados serão utilizados diretamente no cálculo e distribuição do desembolso no sistema.</li>
+</ul>
+<p>⚠️ <strong>Atenção</strong><br />
+- Todos os meses do período devem ser considerados;
+- O preenchimento deve respeitar o formato do template gerado, sem alterar cabeçalhos ou estrutura.</p>
+<hr />
+<h3 id="4-upload-do-arquivo">4. Upload do Arquivo</h3>
+<p>Após o preenchimento:</p>
+<ol>
+<li>Salve o arquivo;</li>
+<li>Realize o upload normalmente pelo sistema;</li>
+<li>O sistema irá validar:</li>
+<li>Coerência dos meses informados;</li>
+<li>Compatibilidade com o período da Linha de Base;</li>
+<li>Consistência dos valores de desembolso.</li>
+</ol>
+<p>Se todas as validações forem atendidas, o desembolso será importado e aplicado automaticamente.</p>
+<hr />
+<h2 id="resultado">Resultado</h2>
+<p>Após a importação bem-sucedida:</p>
+<ul>
+<li>A distribuição mensal passa a fazer parte da Linha de Base;</li>
+<li>Os dados ficam disponíveis para visualização e acompanhamento;</li>
+<li>O planejamento reflete fielmente os valores informados no upload.</li>
+</ul></div>
+                <footer>
+    <div class="footer-buttons">
+        <div class="previous"><a href="../historico_versoes/" title="Manual de uso"><span>Previous</span></a></div>
+    </div>
+    <div class="footer-note">
+        <p>
+            Built with <a href="http://www.mkdocs.org">MkDocs</a> using
+            <a href="https://github.com/daizutabi/mkdocs-ivory">Ivory theme</a>.
+        </p>
+    </div>
+</footer>
+            </div>
+        </main>
+    </div>
+    <script>var base_url = '../..';</script>
+    <script src="../../js/theme.js"></script>
+    <script src="../../search/main.js"></script>
+</body>
+
+</html>
