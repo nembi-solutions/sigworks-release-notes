@@ -19,6 +19,9 @@ nav:
       - v1.60:
           - Visão Geral: versions/v1.60/index.md
           - Changelog: versions/v1.60/changelog.md
+      - v1.62:
+          - Visão Geral: versions/v1.62/index.md
+          - Changelog: versions/v1.62/changelog.md  
   - Módulos:
       - Historico de Versões:
           - Manual de uso: modules/historico_versoes/index.md
@@ -26,5 +29,7 @@ nav:
           - Manual de uso: modules/upload_desembolso/index.md
       - Grupo de Usuário para Visualização:
           - Manual de uso: modules/grupo_visualizacao/index.md    
+      - Administração de Usuário:
+          - Manual de uso: modules/manual_administracao_usuarios/index.md
 plugins:
   - search 
