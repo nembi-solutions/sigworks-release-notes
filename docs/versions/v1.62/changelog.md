@@ -1,8 +1,6 @@
-# Changelog – v1.60
+# Changelog – v1.62
 
 ## Adicionado
-- Criação de grupo de usuário para visualização;
-- Acesso destinado exclusivamente à consulta de informações;
-- Restrição de permissões para cadastro e edição de dados.
+- Refatoração no formulário de administração de usuários.
 
-  → [Grupo de Visualização / Manual de uso](../../modules/grupo_visualizacao/index.md)
+  → [Administração de Usuários / Manual de uso](../../modules/manual_administracao_usuarios/index.md)
